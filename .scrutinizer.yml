@@ -3,7 +3,7 @@ checks:
 
 build:
     environment:
-        node: '7.10'
+        node: 'v7.10.0'
 
     tests:
         override:
