@@ -7,7 +7,7 @@
 
 Module for handling simple CRUD functionality agains a MongoDB database.
 
-Functions asynchronous and makes use of the new async/await functionality of Node v7.10 and above.
+Functions asynchronously making use of the new async/await functionality of Node v7.10 and above.
 
 ## Dependencies
 
@@ -33,7 +33,7 @@ const collection = 'users';
 const Users = require('mongo-crud-simple')(dsn, collection);
 ```
 
-## Usage CRUD
+## CRUD usage
 
 ### Get all items
 
