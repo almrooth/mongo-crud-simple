@@ -2,10 +2,20 @@
   "name": "mongo-crud-simple",
   "version": "1.0.0",
   "description": "Simple CRUD handling for MongoDB",
-  "main": "index.js",
+  "main": "src/mongo-crud-simple.js",
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters" : ["json", "lcov", "text", "clover"],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/*.js"
+    ]
+  },
   "scripts": {
-    "test": "jest",
-    "eslint": "./node_modules/.bin/eslint ."
+    "test": "jest --forceExit",
+    "test-watch": "jest --watch",
+    "posttest": "npm run eslint",
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",
