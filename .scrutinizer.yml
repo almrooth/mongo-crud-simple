@@ -2,6 +2,9 @@ checks:
     javascript: true
 
 build:
+    environment:
+        node: 'v7.10'
+
     tests:
         override:
             -
