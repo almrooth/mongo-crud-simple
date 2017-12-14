@@ -3,7 +3,9 @@ checks:
 
 build:
     environment:
-        node: 'v7.10.0'
+        node: "v7.10.0"
+
+        mongodb: true
 
     tests:
         override:
