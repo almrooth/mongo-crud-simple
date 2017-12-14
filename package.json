@@ -1,0 +1,29 @@
+{
+  "name": "mongo-crud-simple",
+  "version": "1.0.0",
+  "description": "Simple CRUD handling for MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "eslint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almrooth/mongo-crud-simple.git"
+  },
+  "author": "Tobias Almroth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/almrooth/mongo-crud-simple/issues"
+  },
+  "homepage": "https://github.com/almrooth/mongo-crud-simple#readme",
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1",
+    "javascript-style-guide": "^0.9.10",
+    "jest": "^21.2.1"
+  }
+}
