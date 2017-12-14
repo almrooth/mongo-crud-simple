@@ -1,11 +1,16 @@
 {
   "name": "mongo-crud-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple CRUD handling for MongoDB",
   "main": "src/mongo-crud-simple.js",
   "jest": {
     "collectCoverage": true,
-    "coverageReporters" : ["json", "lcov", "text", "clover"],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover"
+    ],
     "coverageDirectory": "coverage",
     "collectCoverageFrom": [
       "src/*.js"
