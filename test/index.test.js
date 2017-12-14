@@ -13,7 +13,8 @@ describe('Test connection', () => {
 
 
     test('Valid DSN', async () => {
-        const Test = require('../src/mongo-crud-simple')('mongodb://127.0.0.1:27017/test', 'test');
+        const dsn = process.env.DB_DSN || 'mongodb://127.0.0.1:27017/test';
+        const Test = require('../src/mongo-crud-simple')(dsn, 'test');
 
         let data = await Test.index();
 
@@ -23,7 +24,8 @@ describe('Test connection', () => {
 
 
 describe('CRUD', () => {
-    const Test = require('../src/mongo-crud-simple')('mongodb://127.0.0.1:27017/test', 'test');
+    const dsn = process.env.DB_DSN || 'mongodb://127.0.0.1:27017/test';
+    const Test = require('../src/mongo-crud-simple')(dsn, 'test');
 
     beforeAll(async () => {
         await Test.create({
