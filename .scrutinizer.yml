@@ -2,6 +2,9 @@ checks:
     javascript: true
 
 build:
+    environment:
+        mongodd: true
+
     dependencies:
         before:
             command: nvm install node
