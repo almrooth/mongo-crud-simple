@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1513253979194" clover="3.2.0">
-  <project timestamp="1513253979195" name="All files">
+<coverage generated="1513265420474" clover="3.2.0">
+  <project timestamp="1513265420474" name="All files">
     <metrics statements="45" coveredstatements="41" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="47" coveredelements="43" complexity="0" loc="45" ncloc="45" packages="1" files="1" classes="1">
       <file name="mongo-crud-simple.js" path="/home/almrooth/Dropbox/dbwebb-kurser/ramverk2/me/module/mongo-crud-simple/src/mongo-crud-simple.js">
         <metrics statements="45" coveredstatements="41" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

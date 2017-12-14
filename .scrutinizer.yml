@@ -1,0 +1,11 @@
+checks:
+    javascript: true
+
+build:
+    tests:
+        override:
+            -
+                command: 'npm run test'
+                coverage:
+                    file: 'coverage/clover.xml'
+                    format: 'clover'
