@@ -68,7 +68,7 @@ let updated_user = {
     email: 'mike.smith@test.com'
 };
 
-Users.index(id, updated_user);
+Users.update(id, updated_user);
 ```
 
 ### Delete item
